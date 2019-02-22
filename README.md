@@ -23,9 +23,9 @@ pip install pandas seaborn nltk
 ```
 
 # Tests
-- Tested applying pairs, triplets and quadruple functions to text to extract sequences of words
-- Able to extract every combination of words given `n` where `n` is number of words consequtively
-- Applied Counter class to flattened lists to generate tally of words or collections of words
+- Created and tested functions `return_pairs`, `return_triples`, `return_quadruples` which can take in a string and output every combination of consequtive words. e.g 'the quick brown fox' > ['the quick', 'quick brown', 'brown fox'] using `return_pairs`
+- Created and tested function to visualize a `counter.most_common()` object from `collections` module.
+- Applied workflow to 'pros' and 'cons' reviews from the google employee review dataset, generating single/pair/triplet/quadruple set analysis on each category.
 
 # Contributors
 - Daniel Corcoran
