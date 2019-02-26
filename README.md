@@ -26,6 +26,7 @@ pip install pandas seaborn nltk
 - Created and tested functions `return_pairs`, `return_triples`, `return_quadruples` which can take in a string and output every combination of consequtive words. e.g 'the quick brown fox' > ['the quick', 'quick brown', 'brown fox'] using `return_pairs`
 - Created and tested function to visualize a `counter.most_common()` object from `collections` module.
 - Applied workflow to 'pros' and 'cons' reviews from the google employee review dataset, generating single/pair/triplet/quadruple set analysis on each category.
+- Reapplied workflow from google employee review dataset on womens clothing review dataset, additionally tested extraction of `pos_tags` using `nltk` functions.
 
 # Contributors
 - Daniel Corcoran
